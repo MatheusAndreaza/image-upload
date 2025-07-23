@@ -1,0 +1,46 @@
+# Arquivo de ajuda
+HELP.md
+
+# Diretórios e arquivos do Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Diretórios e arquivos do build (NetBeans)
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# STS (Spring Tool Suite)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Arquivos locais/sensíveis
+.env
+application-dev.properties
+application-local.properties
+application-test.properties
+
+vscode/
